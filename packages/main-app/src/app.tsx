@@ -3,6 +3,7 @@ import { RouterProvider  } from "react-router-dom"
 import { QueryClient, QueryClientProvider } from 'react-query'
 import GlobalModel, { GlobalContext } from './global-model'
 import router from './router'
+import './global-style.less'
 
 const queryClient = new QueryClient()
 

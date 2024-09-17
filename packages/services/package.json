@@ -1,0 +1,22 @@
+{
+  "name": "@nahida/services",
+  "version": "0.0.1",
+  "description": "",
+  "main": "system/index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@nahida/services": "workspace:^",
+    "@nahida/utils": "workspace:^",
+    "md5-typescript": "^1.0.5",
+    "react-query": "^3.39.3"
+  },
+  "hakushin": {
+    "port": 9005
+  }
+}

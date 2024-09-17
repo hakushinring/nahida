@@ -1,8 +1,8 @@
 {
-  "name": "main-app",
-  "version": "1.0.0",
+  "name": "@nahida/components",
+  "version": "0.0.1",
   "description": "",
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "scripts": {
     "start": "vite",
     "build": "vite build",
@@ -25,12 +25,11 @@
     "vite": "2.9.5"
   },
   "dependencies": {
-    "@nahida/components": "workspace:^",
-    "antd": "^5.8.6",
+    "@ant-design/icons": "^5.4.0",
+    "antd": "^5.20.6",
     "dayjs": "^1.11.8",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-loadable": "^5.5.0",
     "react-query": "^3.39.3",
     "react-router-dom": "^6.15.0"
   },

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "Node16",
+    "skipLibCheck": true,                     /* Skip type checking of declaration files. */
+    "forceConsistentCasingInFileNames": true,  /* Disallow inconsistently-cased references to the same file. */
+    "esModuleInterop": true,
+    "rootDir": "system",
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "dist"
+  },
+  "files": [
+    "system/index.ts"
+  ]
+}
